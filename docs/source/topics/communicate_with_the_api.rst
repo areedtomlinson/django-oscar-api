@@ -135,7 +135,7 @@ We want the blue version, so let's check the product options:
         }
     ]
 
-    option_url = self.response.json()[0]['url']
+    option_url = response.json()[0]['url']
 
 Ok, now we want to add this to our basket:
 
